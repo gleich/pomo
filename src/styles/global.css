@@ -1,0 +1,14 @@
+html {
+	font-family: 'IBM Plex Sans';
+	font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+	font-family: 'Inter';
+	font-weight: 800;
+}
