@@ -1,6 +1,10 @@
 <script>
+	import { DynamicHead } from '@gleich/ui';
+
 	let running = $state(false);
 </script>
+
+<DynamicHead title="Pomo" description="Very minimal and simple pomodoro timer" />
 
 <div class="container">
 	<h1 class={running ? 'running-title' : 'starting-title'}>
